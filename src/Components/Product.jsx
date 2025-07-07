@@ -3,7 +3,6 @@ import React from 'react';
 const Product = ({ img, name, price, aksiya, reting }) => {
   return (
     <div className=" bg-gray-100 p-4 shadow-sm relative">
-      {/* Фото товара */}
       <img
         src={img}
         alt={name}
